@@ -65,6 +65,12 @@ label {
 .a-meal-recipe li{
     text-align: left;
 }
+a {
+    color: rgb(55, 123, 55);
+}
+a:hover{
+    color: red;
+}
 #mealResults{
     justify-content: center;
     text-align: center;
@@ -82,9 +88,6 @@ label {
     bottom: 0;
     width: 100%;
     border-top: 5px solid rgb(55, 123, 55);
-}
-#footer a{
-    color: rgb(102, 101, 101);
 }
 
 

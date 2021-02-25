@@ -43,8 +43,8 @@ document.getElementById("mealSubmit").addEventListener("click", function (event)
 
                     } results += '</ul>';
 
+                    results += "<p>To see a youtube video of this recipe click <a href='" + json.meals[i].strYoutube + "' target='_blank'>here</a></p>"
                     results += "<p>Directions: " + json.meals[i].strInstructions + "</p>";
-
 
                     results += "</div>";
                 }
@@ -155,7 +155,8 @@ document.getElementById("mealSubmit").addEventListener("click", function (event)
                     }
 
                 } results += '</ul>';
-
+                
+                results += "<p>To see a youtube video of this recipe click <a href='" + json.meals[0].strYoutube + "' target='_blank'>here</a></p>"
                 results += "<p>Directions: " + json.meals[0].strInstructions + "</p>";
 
                 results += "</div>";
