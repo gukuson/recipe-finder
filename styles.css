@@ -84,10 +84,10 @@ a:hover{
     height: 60px;
     text-align: center;
     padding-top: 25px;
-    margin-top: 50px;
     bottom: 0;
     width: 100%;
     border-top: 5px solid rgb(55, 123, 55);
+    border-bottom: 5px solid rgb(55, 123, 55);
 }
 
 
