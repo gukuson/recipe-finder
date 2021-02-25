@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Find My Food</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="transparent-background">
+            <h1>Recipe Finder</h1>
+            <form>
+                <label>Find a recipe, or if you want a single random meal just hit submit</br></label>
+                <select id="selector">
+                    <option value="dish">Dish (Spaghetti)</option>
+                    <option value="category">Category (Seafood)</option>
+                    <option value="ingredient">Ingredient (Chicken)</option>
+                </select>
+                <input id="mealInput" type="text"></input>
+                <input id="mealSubmit" type="submit" value="Submit"></input>
+            </form>
+        </div>
+    </div>
+    <div id="mealResults">
+    </div>
+
+    <div id="forecastResults">
+    </div>
+
+    <div id="footer"><a href="https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-gukuson">Github</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="script.js">
+    </script>
+
+</body>
+
+</html>
